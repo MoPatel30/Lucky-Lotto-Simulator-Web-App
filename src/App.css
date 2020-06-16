@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#number-style{
+  color: black;
+  font-size: 42px;
+  text-align: center;
+  
+
+}
+
+#number-style-two{
+  color: whitesmoke;
+  font-size: 36px;
+  text-align: center;
+}
+
+
+#randomizer-style{
+  background-color: black;
+  color: whitesmoke;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed';
+  position: absolute; 
+  left: 155px;
+  top: -25px;
+
+}
+
+#button-pos{
+  position: absolute;
+  top: 800px;
+  width: 200px;
+}
+
+#number-form{
+  position: absolute;
+  left: 663px;
+  top: 550px;
+  color: black;
+}
+
+
+
+
+#player-one{
+  border: 3px solid white;
+  width: 400px;
+  height: 750px;
+  position: absolute;
+  top: -45px;
+  left: -500px;
+  margin-left: 50px;
+  margin-top: 100px;
+
+}
+
+
+#player-two{
+  border: 3px solid white;
+  width: 400px;
+  height: 750px;
+  position: absolute;
+  top: -45px;
+  left: 500px;
+  margin-left: 50px;
+  margin-top: 100px;
+  
+
+}
+
