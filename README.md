@@ -6,6 +6,8 @@ This project revolves around luck. Two users verse each other by having seven ra
 between 0-100. Each of the player's numbers are compared to the generated numbers in the middle. For each respective number,
 the closest player to that number wins the round. A player needs to win the majority (4 out of 7 numbers) to win the session.
 
+Press "Generated Numbers" to generate a new set of numbers. Afterwards, press "Determine Winner" to determine the winner of the newly generated numbers. 
+
 This can come very handy when having trouble deciding who does what or how something should be done. For example, which captain gets to choose first in a pick-up basketball game or for a videogame session where 5 people want to play but only 4 are allowed. This is meant to make the tough decisions that we never can. In the end, no one can be blamed for the outcome but the computer. (PS: Computers have no feelings so they won't care if you get mad at them :P)
 
 Hope all your future decision makings are made because of this. 
