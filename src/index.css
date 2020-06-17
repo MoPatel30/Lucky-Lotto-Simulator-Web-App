@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: whitesmoke;
+  background-color: lightgray;
 }
 
 code {
@@ -20,7 +20,9 @@ code {
   width: 495px;
   height: 886px;
   position: absolute;
+  
 }
+
 
 #middle-side{
   border: 3px solid black;
@@ -31,6 +33,7 @@ code {
   left: 500px;
   
 }
+
 
 #right-side{
   border: 3px solid black;
@@ -46,40 +49,39 @@ code {
 
 
 @media only screen and (max-width: 414px){ 
-  
 
   #left-side{
     border: 3px solid black;
     background-color: blue;
-    width: 369px;
-    height: 270px;
+    width: 414px;
+    height: 409px;
     position: relative;
+
   }
+
 
   #middle-side{
     border: 3px solid black;
     background-color: lightgray;
-    width: 369px;
-    height: 270px;
+    width: 414px;
+    height: 409px;
     position: absolute;
     left: 00px;
     
-    
   }
+
 
   #right-side{
     border: 3px solid black;
     background-color: red;
-    width: 369px;
-    height: 270px;
+    width: 414px;
+    height: 409px;
     position: absolute;
     left: -3px;
-    top: 271px;
+    top: 409px;
     
-
   }
 
-  
   
   
 }

@@ -176,28 +176,7 @@ export class RandomNumber extends React.Component{
 
   checkWinner(){
       this.winner()
-  }
-
-
-  
- 
-/*
-  <input type="text" id="bleh" />
-<script>
-  var inputElement = document.getElementById('bleh');
-  var theirInput = '';
-  inputElement.addEventListener('change', function(e) {
-    theirInput = e.target.value; 
-  }); 
-</script>
-*/
-   
- 
-  
-
-
-
- 
+  } 
   
 
 

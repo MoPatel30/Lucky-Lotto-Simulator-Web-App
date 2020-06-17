@@ -42,14 +42,15 @@
   color: black;
   font-size: 42px;
   text-align: center;
-  
 
 }
+
 
 #number-style-two{
   color: whitesmoke;
   font-size: 36px;
   text-align: center;
+
 }
 
 
@@ -64,32 +65,34 @@
 
 }
 
+
 #winner-style{
   background-color: black;
   color: whitesmoke;
   font-size: 24px;
   font-family: 'Open Sans Condensed';
   position: absolute; 
-
   left: 156.5px;
   top: 35px;
 
 }
 
+
 #button-pos{
   position: absolute;
   top: 800px;
   width: 200px;
+
 }
+
 
 #number-form{
   position: absolute;
   left: 663px;
   top: 550px;
   color: black;
+
 }
-
-
 
 
 #player-one{
@@ -104,11 +107,13 @@
 
 }
 
+
 #player-one-input{
   position: absolute;
-  left: 110px;
+  left: 125px;
   top: 75px;
 }
+
 
 #player-one-nums{
   position:absolute;
@@ -116,7 +121,6 @@
   left: 175px;
 
 }
-
 
 
 #player-two{
@@ -131,9 +135,10 @@
   
 }
 
+
 #player-two-input{
   position: absolute;
-  left: 110px;
+  left: 125px;
   top: 75px;
 }
 
@@ -145,20 +150,19 @@
 
 }
 
+
+
 @media only screen and (max-width: 414px){ 
   
-
   #player-one{
     border: 3px solid white;
     width: 325px;
     height: 200px;
+    margin-top: 101px;
     position: absolute;
     left: 0px;
-    top: -350px;
-    
-    margin-left: 20px;
- 
-    margin-top: 100px;
+    top: -450px;
+    margin-left: 41.5px;
 
   }
 
@@ -167,13 +171,11 @@
     border: 3px solid white;
     width: 325px;
     height: 200px;
+    margin-top: 101px;
     position: absolute;
     left: 0px;
-    top: 200px;
-    
-    margin-left: 20px;
-  
-    margin-top: 100px;
+    top: 400px;
+    margin-left: 41.5px;
     
   }
 
@@ -185,9 +187,9 @@
     font-family: 'Open Sans Condensed';
     position: absolute; 
     top: -700px;
-    left: 50px;
+    left: 48px;
+
   }
-  
 
     
   #winner-style{
@@ -196,7 +198,7 @@
     font-size: 12px;
     font-family: 'Open Sans Condensed';
     position: relative; 
-    left: 200px;
+    left: 248px;
     top: -703.5px;
 
   }
@@ -212,9 +214,12 @@
   }
 
   #random-nums{
+   
     position: absolute;
-    left: 75px;
-    top: 162.5px;
+    left: 92px;
+    top: 204px;
+    height: 100px;
+    
   }
 
   #number-style-two{
@@ -223,38 +228,40 @@
     text-align: center;
     display: contents;
   }
-  
+
+    
+  #player-one-nums{
+    position:absolute;
+    left: 50px;
+    top: 125px;
+    height: 100px;
+
+  }
+    
 
 
-#player-one-input{
-  position: absolute;
-  left: 75px;
-  top: 75px;
-}
+  #player-one-input{
+    position: absolute;
+    left: 87.5px;
+    top: 75px;
+  }
 
 
-#player-two-input{
-  position: absolute;
-  left: 75px;
-  top: 75px;
-}
+
+  #player-two-nums{
+    position:absolute;
+    left: 50px;
+    top: 125px;
+    height: 100px;
+
+  }
 
 
-#player-one-nums{
-  position:absolute;
-  left: 50px;
-  top: 125px;
-
-}
-
-
-#player-two-nums{
-  position:absolute;
-  left: 50px;
-  top: 125px;
-
-}
-
+  #player-two-input{
+    position: absolute;
+    left: 87.5px;
+    top: 75px;
+  }
 
 
 }

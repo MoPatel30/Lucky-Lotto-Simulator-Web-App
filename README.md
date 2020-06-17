@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Lucky Lotto Simulator Web-App
 
-## Available Scripts
+## About 
 
-In the project directory, you can run:
+This project revolves around luck. Two users verse each other by having seven random numbers generated 
+between 0-100. Each of the player's numbers are compared to the generated numbers in the middle. For each respective number,
+the closest player to that number wins the round. A player needs to win the majority (4 out of 7 numbers) to win the session.
 
-### `npm start`
+This can come very handy when having trouble deciding who does what or how something should be done. For example, which captain gets to choose first in a pick-up basketball game or for a videogame session where 5 people want to play but only 4 are allowed. This is meant to make the tough decisions that we never can. In the end, no one can be blamed for the outcome but the computer. (PS: Computers have no feelings so they won't care if you get mad at them :P)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Hope all your future decision makings are made because of this. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Good Luck and enjoy!
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools Used
 
-### `npm run build`
+This project was created using React (JS Framework for web development), HTML, and CSS. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+NodeJS was used slightly in the background for localhost testing, etc.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Created using Create-react-app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Hosted freely using Google's Firebase platform.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Creator
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Creator: Mohammed Patel
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2nd Year Computer Science & Software Engineering Student at Loyola University Chicago
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Lead Website Developer for Blockchain@LUC
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feel free to email me @Mopatel1214@gmail.com for any questions, comments, or concerns. :)
