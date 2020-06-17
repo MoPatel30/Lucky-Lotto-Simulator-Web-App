@@ -13,6 +13,9 @@ Hope all your future decision makings are made because of this.
 Good Luck and enjoy!
 
 
+![Game Main Page](src/LLS.JPG)
+
+
 ## Tools Used
 
 This project was created using React (JS Framework for web development), HTML, and CSS. 
