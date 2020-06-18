@@ -24,6 +24,9 @@ export class RandomNumber extends React.Component{
   constructor(){
     super()
 
+    //welcome and rules alert
+    alert("Welcome to Lucky Lotto Simulator!" + "\n" + "\n" + "Enter both player names in display name field." + "\n" + "To begin, click 'Generate Numbers' for a set of random numbers." + "\n" + "Afterwards, click 'Determine Winner' to see which player won that round." + "\n" + "\n" + "Good Luck! May the odds be ever in your favor!")
+    
     this.state = {
       randNumOne : null,
       randNumTwo : null,
@@ -58,7 +61,7 @@ export class RandomNumber extends React.Component{
    
   }
 
-
+    //Determines winner of round
     winner(){
         let countOne = 0
         let countTwo = 0
@@ -142,7 +145,7 @@ export class RandomNumber extends React.Component{
     }
 
 
-
+  // called by button click and generates the random numbers
   operation(){
     this.setState({
       randNumOne : Math.floor(Math.random() * 101),
@@ -173,7 +176,7 @@ export class RandomNumber extends React.Component{
     
 
   }
-
+  //called by button click to determine winner. calls winner function above
   checkWinner(){
       this.winner()
   } 
@@ -185,12 +188,12 @@ export class RandomNumber extends React.Component{
       <div>
         
         <div id="random-nums">
-            <p id="number-style">{this.state.randNumOne}     </p>
-            <p id="number-style">{this.state.randNumTwo}     </p>
-            <p id="number-style">{this.state.randNumThree}     </p>
-            <p id="number-style">{this.state.randNumFour}     </p>
-            <p id="number-style">{this.state.randNumFive}     </p>
-            <p id="number-style">{this.state.randNumSix}     </p>
+            <p id="number-style">{this.state.randNumOne}          </p>
+            <p id="number-style">{this.state.randNumTwo}          </p>
+            <p id="number-style">{this.state.randNumThree}          </p>
+            <p id="number-style">{this.state.randNumFour}          </p>
+            <p id="number-style">{this.state.randNumFive}          </p>
+            <p id="number-style">{this.state.randNumSix}          </p>
             <p id="number-style">{this.state.randNumSeven}</p>
         </div>
 
@@ -206,12 +209,12 @@ export class RandomNumber extends React.Component{
                 onChange= {e => this.setState({nameOne: e.target.value})}
             />
             <div id = "player-one-nums">
-                <p id="number-style-two">{this.state.OneNumOne}     </p>
-                <p id="number-style-two">{this.state.OneNumTwo}     </p>
-                <p id="number-style-two">{this.state.OneNumThree}     </p>
-                <p id="number-style-two">{this.state.OneNumFour}     </p>
-                <p id="number-style-two">{this.state.OneNumFive}     </p>
-                <p id="number-style-two">{this.state.OneNumSix}     </p>
+                <p id="number-style-two">{this.state.OneNumOne}          </p>
+                <p id="number-style-two">{this.state.OneNumTwo}          </p>
+                <p id="number-style-two">{this.state.OneNumThree}          </p>
+                <p id="number-style-two">{this.state.OneNumFour}          </p>
+                <p id="number-style-two">{this.state.OneNumFive}          </p>
+                <p id="number-style-two">{this.state.OneNumSix}          </p>
                 <p id="number-style-two">{this.state.OneNumSeven}</p>
             </div>
         </div>
@@ -228,12 +231,12 @@ export class RandomNumber extends React.Component{
                 onChange= {e => this.setState({nameTwo: e.target.value})}
             />
             <div id="player-two-nums">
-                <p id="number-style-two">{this.state.TwoNumOne}     </p>
-                <p id="number-style-two">{this.state.TwoNumTwo}     </p>
-                <p id="number-style-two">{this.state.TwoNumThree}     </p>
-                <p id="number-style-two">{this.state.TwoNumFour}     </p>
-                <p id="number-style-two">{this.state.TwoNumFive}     </p>
-                <p id="number-style-two">{this.state.TwoNumSix}     </p>
+                <p id="number-style-two">{this.state.TwoNumOne}          </p>
+                <p id="number-style-two">{this.state.TwoNumTwo}          </p>
+                <p id="number-style-two">{this.state.TwoNumThree}          </p>
+                <p id="number-style-two">{this.state.TwoNumFour}          </p>
+                <p id="number-style-two">{this.state.TwoNumFive}          </p>
+                <p id="number-style-two">{this.state.TwoNumSix}          </p>
                 <p id="number-style-two">{this.state.TwoNumSeven}</p>
             </div>
         </div>

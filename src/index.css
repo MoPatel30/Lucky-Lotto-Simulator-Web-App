@@ -47,7 +47,7 @@ code {
 }
 
 
-
+/* styling for mobile devices*/
 @media only screen and (max-width: 414px){ 
 
   #left-side{
