@@ -1,5 +1,16 @@
 ## Lucky Lotto Simulator Web-App
 
+## Languages/Tools/Services Used
+
+This project was created using React (JS Framework for web development), HTML, and CSS. 
+
+NodeJS was used slightly in the background for localhost testing, etc.
+
+Created using Create-react-app.
+
+Hosted freely using Google's Firebase platform.
+
+
 ## About 
 
 This project revolves around luck. Two users verse each other by having seven random numbers generated 
@@ -16,17 +27,6 @@ Good Luck and enjoy!
 
 
 ![Game Main Page](src/LLS.JPG)
-
-
-## Tools Used
-
-This project was created using React (JS Framework for web development), HTML, and CSS. 
-
-NodeJS was used slightly in the background for localhost testing, etc.
-
-Created using Create-react-app.
-
-Hosted freely using Google's Firebase platform.
 
 
 ## Creator
